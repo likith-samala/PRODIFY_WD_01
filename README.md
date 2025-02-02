@@ -1,1 +1,1 @@
-# PRODIFY_WD_01
+(PRODIGY_WD_01)This project features a responsive landing page with an interactive navigation menu. The navigation menu remains fixed at the top of the page, ensuring easy access to different sections. It dynamically changes color or style when the user scrolls or hovers over a menu item, enhancing the user experience. The page also includes smooth scrolling for navigation, form validation to ensure correct input submission, and a dynamically updating footer that displays the current year.

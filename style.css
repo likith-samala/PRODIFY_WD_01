@@ -1,0 +1,163 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color:#333;
+  
+
+}
+header{
+  background-color:#005f73 ;
+  color: white;
+  padding: 15px 0;
+}
+.header-content{
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+header h1{
+  margin-left: 20px;
+
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  
+}
+nav ul li{
+  margin-left: 20px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+font-weight: bold;
+}
+
+#hero {
+  background-image:url(learn-to-code-image.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.hero-button{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color:#ee6c4d ;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3;
+}
+.hero-button:hover{
+  background-color: #d64b2a;
+}
+footer{
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+  background-color: #005f73;
+  color: white;
+  
+  padding: 10px 0;
+  
+
+}
+
+#services{
+  background-color: #fff;
+  padding: 20px;
+  text-align: lrft;
+}
+#services h2{
+  color:#007bff ;
+  margin-bottom: 20px;
+}
+#services p{
+  margin-left: -25px;
+  font-weight: bold;
+}
+#services ul{
+  list-style: circle;
+  margin-left: 20px;
+}
+
+#services li {
+  margin-bottom: 10px;
+}
+
+
+#about {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: left;
+}
+#about h2 {
+  color: #28a745;
+  margin-bottom: 15px;
+}
+
+#contact {
+  background-color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+.phone{
+  margin-left: 20px;
+}
+
+#contact {
+  background-color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+
+#contact h2 {
+  color: #dc3545;
+  margin-bottom: 15px;
+}
+
+#contact p {
+  margin-bottom: 10px;
+}
+#services li:hover,
+#contact p:hover {
+  color: #0056b3;
+  cursor: pointer;
+}
+
+.contact__button {
+  padding: 0.5em;
+  border-radius: 15px;
+  background-color: rgb(51,178,51);;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  #services, #about, #contact {
+      text-align: center;
+  }
+
+  #services ul {
+      list-style-type: none;
+      padding: 0;
+  }
+}
+
